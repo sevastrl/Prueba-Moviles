@@ -1,6 +1,7 @@
 Pantallas de la aplicación movil
 
 -Pestaña de Biografia
+
 ![image](https://github.com/user-attachments/assets/20b7b9b1-cb82-49cc-add3-2c5379d34f59)
 
 -Pestaña de GitHub
