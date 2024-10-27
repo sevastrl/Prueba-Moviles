@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Notas Rápidas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item>
+    <ion-label position="floating">Escribe tu nota</ion-label>
+    <ion-input [(ngModel)]="nota"></ion-input>
+  </ion-item>
+
+  <ion-button expand="full" (click)="agregarNota()">Agregar Nota</ion-button>
+
+  <ion-list>
+    <ion-item *ngFor="let n of notas; let i = index">
+      <ion-label>{{ n }}</ion-label>
+      <ion-button fill="clear" (click)="eliminarNota(i)">
+        <ion-icon name="trash"></ion-icon>
+      </ion-button>
+    </ion-item>
+  </ion-list>
+</ion-content>
