@@ -16,4 +16,6 @@ Pantallas de la aplicación movil
 
 ![image](https://github.com/user-attachments/assets/3a03f175-fe4f-4b4a-961e-3f38bf6511dc)
 
+-Pestaña de Notas
 
+![image](https://github.com/user-attachments/assets/404f9adc-aafd-427d-8251-98d57132349d)
